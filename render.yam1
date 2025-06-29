@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: bot-binance
+    env: python
+    buildCommand: "pip install -r requisitos.txt"
+    startCommand: "python bot_binance.py"
